@@ -1,0 +1,43 @@
+# Built application files / APKs
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+release/
+
+# Gradle
+.gradle/
+build/
+
+# Local configuration (SDK path, etc.) — machine-specific, may contain absolute paths
+local.properties
+
+# Gradle wrapper jar is fine to commit; but ignore downloaded distributions
+.tools/
+
+# Log / temp
+*.log
+*.tmp
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore (NEVER commit signing keys)
+*.jks
+*.keystore
